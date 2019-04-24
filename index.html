@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css" media="all"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://www.iut-fbleau.fr/projet/maths/?f=logins.js"></script>
+    <script src="http://www.iut-fbleau.fr/projet/maths/?f=pagerank.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="chart-ex.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <title>Math</title>
+</head>
+<body>
+
+<header>
+
+    <ul>
+        <li class ="name">
+            Entropie
+        </li>
+
+
+
+        <li>
+            <select id="matiere-select">
+                <option value="">--Matiere--</option>
+                <option value="acda">ACDA</option>
+                <option value="ang">ANG</option>
+                <option value="asr">ASR</option>
+                <option value="art">ART</option>
+                <option value="apl">APL</option>
+                <option value="EC">EC</option>
+                <option value="EGOD">EGOD</option>
+                <option value="MATH">MAT</option>
+                <option value="SGBD">SGBD</option>
+                <option value="SPORT">SPORT</option>
+
+            </select>
+        </li>
+
+
+        <li>
+            <select id="login-select">
+                <option value="">--Login--</option>
+
+            </select>
+
+        </li>
+
+    </ul>
+</header>
+
+<h1 class="titre"></h1>
+
+
+<canvas height = "300" id="myChartAcda"></canvas>
+<canvas height = "300" id="myChartAng"></canvas>
+<canvas height = "300" id="myChartAsr"></canvas>
+<canvas height = "300" id="myChartArt"></canvas>
+<canvas height = "300" id="myChartApl"></canvas>
+<canvas height = "300" id="myChartEc"></canvas>
+<canvas height = "300" id="myChartEgod"></canvas>
+<canvas height = "300" id="myChartMath"></canvas>
+<canvas height = "300" id="myChartSgbd"></canvas>
+<canvas height = "300" id="myChartSport"></canvas>
+
+
+<div style="display: none "class ="div-vote">
+</div>
+
+<div class ="div-vote-second">
+</div>
+
+    <h2 class="score"></h2>
+
+
+</body>
+</html>

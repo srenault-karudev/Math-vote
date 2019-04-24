@@ -1,0 +1,87 @@
+body{
+    background-color: floralwhite;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+
+header {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #f9b8b8;
+    top : 0;
+    }
+
+li {
+    float: right;
+    padding: 14px 16px;
+    display: block;
+    vertical-align: center;
+}
+
+.name{
+    font-size: 30px;
+    float : left;
+    color: white;
+    font-weight:bold;
+    margin-top: -6px;
+}
+
+select{
+    width: 300px;
+    height: 30px;
+}
+
+
+canvas{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80% !important;
+    /*height: 500px !important;*/
+}
+
+.titre{
+    text-align: center;
+    color : rosybrown;
+}
+
+.score {
+    float: right;
+    margin-top: -308px;
+    margin-right: 40px;
+    border: none;
+    padding: 6px 0 6px 0;
+    border-radius: 8px;
+    background: #d34836;
+    font: bold 35px Arial;
+    color: #fff;
+}
+
+#bouton{
+    width: 100px;
+}
+
+.div-vote{
+   width: 1300px;
+    height:200px ;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #f9b8b8 ;
+    border-radius: 8px;
+}
+.div-vote li{
+    margin-top: -10px;
+    float: left;
+}
+.div-vote h3{
+
+    margin-left: 20px;
+
+}
